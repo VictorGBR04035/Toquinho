@@ -1,0 +1,9 @@
+/* Paleta de cores -  compartilhado com outros arquivos CSS */
+:root {
+    --bg: #e8f5e9;        /* verde bem claro */
+    --primary: #4CAF50;   /* verde principal */
+    --secondary: #81C784; /* verde suave */
+    --text: #2e2e2e;
+    --card: #ffffff;
+    --muted: #dddddd;
+}

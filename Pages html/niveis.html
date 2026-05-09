@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Toquinho</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="topo">
+        <img id="personagem" src="/assets/images/personagem1.png" alt="Personagem">
+    </div>
+
+    <div class="skins">
+        <button onclick="trocarSkin('personagem1.png')">🙂</button>
+        <button onclick="trocarSkin('personagem2.png')">😎</button>
+    </div>
+
+    <main class="container">
+        <h1>Toquinho</h1>
+        <p class="subtitulo"><strong> Aprenda brincando 🍎</strong></p>
+
+        <div class="barra-container">
+            <div class="barra" id="barra"></div>
+        </div>
+
+        <p id="pergunta"> <strong>Clique na fruta roxa</strong></p>
+
+        <div class="opcoes">
+            <img src="/assets/images/uva.png" class="fruta" data-correta="true">
+            <img src="/assets/images/maca.png" class="fruta">
+            <img src="/assets/images/pera.png" class="fruta">
+        </div>
+
+        <p id="feedback"></p>
+
+        <button id="proximo">Próximo</button>
+        <button id="modoCalmo">Modo Calmo</button>
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

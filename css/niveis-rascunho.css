@@ -1,0 +1,42 @@
+:root {
+  --background: oklch(1 0 0);
+  --muted: oklch(0.97 0 0);
+  --primary: oklch(0.205 0 0);
+}
+
+body {
+  min-height: 100svh;
+  background-color: var(--background);
+}
+
+header {
+  padding: 3rem 2.5rem 0;
+  height: 2.5rem;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-inner > .lucide-x {
+  color: var(--primary);
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.progress-bar {
+  flex: 1;
+  width: 100%;
+  height: 1rem;
+  border-radius: 9999px;
+  overflow: hidden;
+  background-color: var(--muted);
+}
+
+.progress-bar-inner {
+  height: 100%;
+  width: 80%;
+  background-color: var(--primary);
+}
