@@ -1,64 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Toquinho</title>
-    <meta name="description" content="...">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/index.css">
+
+    <meta name="description" content="Aplicativo educativo voltado para crianças com TEA e dificuldades de aprendizado.">
+
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/index.css">
 </head>
+
 <body>
 
+    <!-- NAVBAR -->
+    <header class="navbar">
 
-<main>
-    <!-- Conteúdo principal -->
-    <section class="hero">
-        <div class="hero-texto">
-            <fieldset>
-                <h1>Bem-vindo ao Toquinho!</h1>
-            </fieldset>
+        <div class="logo">
+            🍎 Toquinho
+        </div>
 
-            <div class="botoes">
-                <a href="download.html" class="botao-download">Baixar Aplicativo</a>
-                <a href="niveis.html" class="botao-demonstracao">Testar Demonstração</a>
-            </div>
-        </div>
-        
-        <div class="hero-imagem">
-            <img src="/assets/images/hero.png" alt="Imagem do Toquinho" >
-        </div>
-    </section>
-        
-        <!-- Sobre -->
-        <section class="sobre">
-            <h2>Sobre o Toquinho</h2>
+        <nav class="nav-links">
+            <a href="#">Início</a>
+            <a href="#">Demonstração</a>
+            <a href="#">Objetivos</a>
+            <a href="#">Contato</a>
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+    <main class="hero">
+
+        <section class="hero-text">
+
+            <span class="tag">
+                Inclusão • Aprendizado • Diversão
+            </span>
+
+            <h1>
+                Aprender pode ser leve,
+                basta um Toquinho.
+            </h1>
+
             <p>
-                O Toquinho foi criado com foco em acessibilidade cognitiva,
-                utilizando cores suaves, interações simples e atividades educativas
-                voltadas para crianças com TEA e dificuldades no aprendizado.
+                O Toquinho é um aplicativo educativo
+                criado para auxiliar crianças com TEA
+                e dificuldades de aprendizado através
+                de jogos intuitivos e interativos.
             </p>
-        </section>
 
-        <!--FUNCIONALIDADES-->
-        <section class="funcionalidades">
-            <div class="card">
-                <h3>Atividades Interativas</h3>
-                <p>
-                    Jogos educativos com reconhecimento visual
-                    e associação intuitiva.
-                </p>
+            <div class="hero-buttons">
+
+                <a href="#" class="btn-primary">
+                    Baixar aplicativo
+                </a>
+
+                <a href="/Pages html/niveis.html" class="btn-secondary">
+                    Testar demonstração
+                </a>
+
             </div>
 
-            <div class="card">
-                <h3>Visual Intuitivo</h3>
-                <p>
-                    Elementos visuais amigáveis,
-                    cores suaves e design acessível.
-                </p>
-            </div>
         </section>
+
+        <!-- IMAGEM -->
+        <section class="hero-image">
+
+            <img src="/assets/images/hero.png" alt="Imagem do aplicativo Toquinho">
+
+        </section>
+
     </main>
+
 </body>
-<script src="/js/script.js"></script>
 </html>

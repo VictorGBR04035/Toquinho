@@ -18,7 +18,9 @@ button {
   --muted: oklch(0.97 0 0);
   --primary: oklch(0.205 0 0);
   --primary-foreground: oklch(0.985 0 0);
-  --border: oklch(0.922 0 0)
+  --border: oklch(0.922 0 0);
+  
+  --color-selected-border: oklch(0.5859 0.0873 232.03);
 }
 
 body {
@@ -122,6 +124,15 @@ header {
   border-width: 2px 2px 4px;
   border-color: var(--border);
   border-radius: 0.75rem;
+}
+
+.question-option:hover {
+  background-color: var(--muted);
+  color: var(--foreground);
+}
+
+.question-option[data-state="selected"] {
+  border-color: var(--color-selected-border);
 }
 
 .question-option-icon {

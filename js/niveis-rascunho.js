@@ -55,4 +55,6 @@ function check() {
   if (!selected) {
     return
   }
+
+  // TODO: compare `selected` with correct option and update UI state
 }
